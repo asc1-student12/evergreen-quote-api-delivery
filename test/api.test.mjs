@@ -104,3 +104,11 @@ test("POST /api/quote rejects an unknown coverage type with a 400", async () => 
   });
   assert.equal(res.status, 400);
 });
+
+test("GET /api/quotes/q1 returns the seeded auto quote", async () => {
+  await Quote.create({ _id: "q1", type: "auto", age: 41, coverageAmount: 50000, monthlyPremium: 96 });
+  const res = await fetch(`${base}/api/quotes/q1`);
+  assert.equal(res.status, 200);
+  const quote = await res.json();
+  assert.equal(quote.type, "auto");
+});
