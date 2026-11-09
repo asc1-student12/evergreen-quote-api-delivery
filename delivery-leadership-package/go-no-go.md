@@ -17,7 +17,7 @@
 ## What "GO" would mean
 
 - Merge `delivery/lead` → `main` with squash and merge; delete the branch.
-- Tag the merge commit `phase-2`.
+- Tag the merge commit `phase-3`.
 
 ## What "NO-GO" would mean
 
