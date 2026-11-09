@@ -2,7 +2,7 @@
 
 **Scott Cannon · Delivery Lead (solo) · Phase 3 capstone · 5 minutes**
 
-The presented version is the one-page PDF in this folder: [delivery-review-one-page.pdf](delivery-review-one-page.pdf).
+The presented version is the one-page review in this folder: [One-page delivery review](delivery-review-one-page.md).
 
 ## Slide 1: Delivery goal and did we hit it?
 
